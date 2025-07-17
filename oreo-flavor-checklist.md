@@ -6,6 +6,10 @@
 - [ ] Mega Stuf
 - [ ] Golden Oreo
 - [ ] Chocolate Creme
+- [ ] Reduced Fat Oreo
+- [ ] Mini Oreo
+- [ ] Thins Original
+- [ ] Thins Golden
 
 ## Limited Edition / Seasonal
 - [ ] Pumpkin Spice
@@ -13,12 +17,87 @@
 - [ ] Carrot Cake
 - [ ] Firework (Popping Candy)
 - [ ] Maple Creme
+- [ ] Birthday Cake
+- [ ] Lemon Twist
+- [ ] Orange Creme
+- [ ] Strawberry Creme
+- [ ] Mint Creme
+- [ ] Peanut Butter Creme
+- [ ] Chocolate Peanut Butter Pie
+- [ ] Key Lime Pie
+- [ ] Fruit Punch
+- [ ] Watermelon
+- [ ] Blueberry Pie
+- [ ] Apple Pie
+- [ ] S'mores
+- [ ] Cinnamon Bun
+- [ ] Neapolitan
+- [ ] Cotton Candy
+- [ ] Caramel Apple
+- [ ] Peppermint Bark
+- [ ] Gingerbread
+- [ ] Eggnog
+- [ ] Spring (Pastel)
+- [ ] Summer (Berry Burst)
+- [ ] Fall (Pumpkin Spice)
+- [ ] Winter (Peppermint)
+- [ ] Swedish Fish
+- [ ] Peeps
+- [ ] Creamsicle
+- [ ] Root Beer Float
+- [ ] Jelly Donut
+- [ ] Tiramisu
+- [ ] Cookies & Creme
+- [ ] Chocolate Hazelnut
+- [ ] Banana Split
+- [ ] Cherry Cola
+- [ ] Limeade
+- [ ] Coconut Delight
 
 ## International / Rare
 - [ ] Wasabi (China)
 - [ ] Hot Chicken Wing (China)
 - [ ] Matcha (Japan)
 - [ ] Dulce de Leche
+- [ ] Green Tea Ice Cream (Japan)
+- [ ] Blueberry Ice Cream (Japan)
+- [ ] Orange Ice Cream (Japan)
+- [ ] Grape Ice Cream (Japan)
+- [ ] Banana Ice Cream (Japan)
+- [ ] Chocolate Ice Cream (Japan)
+- [ ] Vanilla Ice Cream (Japan)
+- [ ] Strawberry Ice Cream (Japan)
+- [ ] Mango Ice Cream (Japan)
+- [ ] Cappuccino (Europe)
+- [ ] Tiramisu (Europe)
+- [ ] Coconut (International)
+- [ ] Blueberry (International)
+- [ ] Strawberry (International)
+- [ ] Banana (International)
+- [ ] Orange (International)
+- [ ] Lemon (International)
+- [ ] Grape (International)
+- [ ] Raspberry (International)
+- [ ] Blackberry (International)
+- [ ] Passion Fruit (International)
+- [ ] Mango (International)
+- [ ] Taro (Asia)
+- [ ] Red Bean (Asia)
+- [ ] Purple Sweet Potato (Asia)
+- [ ] Milk Tea (Asia)
+- [ ] Chocolate Banana (International)
+- [ ] Vanilla Banana (International)
+- [ ] Strawberry Banana (International)
+- [ ] Cookies & Cream (International)
+- [ ] Mint Chocolate (International)
+- [ ] Caramel (International)
+- [ ] Peanut Butter (International)
+- [ ] Almond (International)
+- [ ] Hazelnut (International)
+- [ ] Pistachio (International)
+- [ ] Coffee (International)
+- [ ] Mocha (International)
+- [ ] Espresso (International)
 
 ## Novelty / Collabs
 - [ ] Most Oreo Oreo
@@ -26,6 +105,90 @@
 - [ ] The Batman Oreo
 - [ ] NBA Dynasty Oreo
 - [ ] Lady Gaga Oreo
+- [ ] Mystery Flavor
+- [ ] Dunkin' Donuts Mocha
+- [ ] Baskin-Robbins Mint Chocolate Chip
+- [ ] Chips Ahoy! Oreo
+- [ ] Sour Patch Kids
+- [ ] Ritz Crackers
+- [ ] Nutter Butter
+- [ ] Nutter Butter Peanut Butter
+- [ ] Nutter Butter Chocolate Peanut Butter
+- [ ] Nutter Butter Banana
+- [ ] Nutter Butter Fudge Covered
+- [ ] Nutter Butter Bites
+- [ ] Nutter Butter Cakesters
+- [ ] Nutter Butter Wafers
+- [ ] Nutter Butter Sandwich Cookies
+- [ ] Nutter Butter Mini
+- [ ] Nutter Butter Big Bag
+- [ ] Nutter Butter Family Size
+- [ ] Nutter Butter Go-Paks
+- [ ] Nutter Butter Snack Packs
+
+## Thins Varieties
+- [ ] Thins Original
+- [ ] Thins Golden
+- [ ] Thins Mint
+- [ ] Thins Lemon
+- [ ] Thins Coconut
+- [ ] Thins Pistachio
+- [ ] Thins Chocolate
+- [ ] Thins Vanilla
+- [ ] Thins Strawberry
+- [ ] Thins Caramel
+- [ ] Thins Peanut Butter
+- [ ] Thins Cinnamon
+- [ ] Thins Maple
+- [ ] Thins Birthday Cake
+- [ ] Thins Red Velvet
+- [ ] Thins Key Lime Pie
+- [ ] Thins Carrot Cake
+- [ ] Thins Cookies & Creme
+
+## Mega Stuf Varieties
+- [ ] Mega Stuf Original
+- [ ] Mega Stuf Golden
+- [ ] Mega Stuf Chocolate
+- [ ] Mega Stuf Vanilla
+- [ ] Mega Stuf Strawberry
+- [ ] Mega Stuf Mint
+- [ ] Mega Stuf Lemon
+- [ ] Mega Stuf Orange
+- [ ] Mega Stuf Birthday Cake
+- [ ] Mega Stuf Red Velvet
+- [ ] Mega Stuf Peanut Butter
+- [ ] Mega Stuf Caramel
+- [ ] Mega Stuf Coconut
+- [ ] Mega Stuf Banana
+- [ ] Mega Stuf Raspberry
+- [ ] Mega Stuf Blueberry
+- [ ] Mega Stuf Blackberry
+- [ ] Mega Stuf Grape
+- [ ] Mega Stuf Mango
+- [ ] Mega Stuf Passion Fruit
+
+## Discontinued/Historic Flavors
+- [ ] Uh-Oh! Oreo (Reversed colors)
+- [ ] Oreo O's Cereal Flavor
+- [ ] Oreo Cakesters
+- [ ] Oreo Wafer Rolls
+- [ ] Oreo Sandwich Cookies
+- [ ] Oreo Snack Cakes
+- [ ] Oreo Bars
+- [ ] Oreo Brownie
+- [ ] Oreo Pie Crust
+- [ ] Oreo Crumbs
+- [ ] Oreo Ice Cream
+- [ ] Oreo Milkshake
+- [ ] Oreo Blizzard
+- [ ] Oreo McFlurry
+- [ ] Oreo Frappuccino
+- [ ] Oreo Smoothie
+- [ ] Oreo Yogurt
+- [ ] Oreo Pudding
+- [ ] Oreo Cake Mix
+- [ ] Oreo Cookie Dough
 
 ---
 

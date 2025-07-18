@@ -1,10 +1,10 @@
 # 📋 Oreo Flavor Checklist
 
 ## Classic Flavors
-- [ ] Classic Oreo
+- [x] Classic Oreo
 - [ ] Double Stuf
 - [ ] Mega Stuf
-- [ ] Golden Oreo
+- [x] Golden Oreo
 - [ ] Chocolate Creme
 - [ ] Reduced Fat Oreo
 - [ ] Mini Oreo
@@ -15,8 +15,8 @@
 - [ ] Pumpkin Spice
 - [ ] Red Velvet
 - [ ] Carrot Cake
-- [ ] Firework (Popping Candy)
-- [ ] Maple Creme
+- [x] Firework (Popping Candy)
+- [x] Maple Creme
 - [ ] Birthday Cake
 - [ ] Lemon Twist
 - [ ] Orange Creme
@@ -27,12 +27,12 @@
 - [ ] Key Lime Pie
 - [ ] Fruit Punch
 - [ ] Watermelon
-- [ ] Blueberry Pie
+- [x] Blueberry Pie
 - [ ] Apple Pie
-- [ ] S'mores
+- [x] S'mores
 - [ ] Cinnamon Bun
 - [ ] Neapolitan
-- [ ] Cotton Candy
+- [x] Cotton Candy
 - [ ] Caramel Apple
 - [ ] Peppermint Bark
 - [ ] Gingerbread
@@ -41,16 +41,16 @@
 - [ ] Summer (Berry Burst)
 - [ ] Fall (Pumpkin Spice)
 - [ ] Winter (Peppermint)
-- [ ] Swedish Fish
+- [x] Swedish Fish
 - [ ] Peeps
 - [ ] Creamsicle
 - [ ] Root Beer Float
 - [ ] Jelly Donut
 - [ ] Tiramisu
-- [ ] Cookies & Creme
-- [ ] Chocolate Hazelnut
+- [x] Cookies & Creme
+- [x] Chocolate Hazelnut
 - [ ] Banana Split
-- [ ] Cherry Cola
+- [x] Cherry Cola
 - [ ] Limeade
 - [ ] Coconut Delight
 
@@ -104,7 +104,7 @@
 - [ ] Brookie-O
 - [ ] The Batman Oreo
 - [ ] NBA Dynasty Oreo
-- [ ] Lady Gaga Oreo
+- [x] Lady Gaga Oreo
 - [ ] Mystery Flavor
 - [ ] Dunkin' Donuts Mocha
 - [ ] Baskin-Robbins Mint Chocolate Chip

@@ -2,35 +2,35 @@
 
 ## Classic Flavors
 - [x] Classic Oreo
-- [ ] Double Stuf
-- [ ] Mega Stuf
+- [x] Double Stuf
+- [x] Mega Stuf
 - [x] Golden Oreo
 - [ ] Chocolate Creme
 - [ ] Reduced Fat Oreo
-- [ ] Mini Oreo
+- [x] Mini Oreo
 - [ ] Thins Original
 - [ ] Thins Golden
 
 ## Limited Edition / Seasonal
-- [ ] Pumpkin Spice
-- [ ] Red Velvet
-- [ ] Carrot Cake
+- [x] Pumpkin Spice
+- [x] Red Velvet
+- [x] Carrot Cake
 - [x] Firework (Popping Candy)
 - [x] Maple Creme
-- [ ] Birthday Cake
+- [x] Birthday Cake
 - [ ] Lemon Twist
 - [ ] Orange Creme
 - [ ] Strawberry Creme
 - [ ] Mint Creme
 - [ ] Peanut Butter Creme
-- [ ] Chocolate Peanut Butter Pie
-- [ ] Key Lime Pie
+- [x] Chocolate Peanut Butter Pie
+- [x] Key Lime Pie
 - [ ] Fruit Punch
 - [ ] Watermelon
 - [x] Blueberry Pie
-- [ ] Apple Pie
+- [x] Apple Pie
 - [x] S'mores
-- [ ] Cinnamon Bun
+- [] Cinnamon Bun
 - [ ] Neapolitan
 - [x] Cotton Candy
 - [ ] Caramel Apple

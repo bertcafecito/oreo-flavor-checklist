@@ -1,0 +1,71 @@
+name: 🍪 Add New or Missing Oreo Flavor
+description: Submit a new or missing Oreo flavor to be added to the checklist
+title: "[FLAVOR] Add [Flavor Name]"
+labels: ["enhancement", "new-flavor"]
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping us keep the Oreo flavor checklist complete! 🍪
+        
+        Please provide the following information about the Oreo flavor you'd like to add.
+
+  - type: input
+    id: flavor-name
+    attributes:
+      label: Flavor Name
+      description: What is the exact name of the Oreo flavor?
+      placeholder: e.g., "Birthday Cake Oreo", "Mint Chocolate Chip Oreo"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: decade
+    attributes:
+      label: Decade Released
+      description: In which decade was this flavor first released?
+      options:
+        - "1910s"
+        - "1970s"
+        - "1980s"
+        - "1990s"
+        - "2000s"
+        - "2010s"
+        - "2020s"
+        - "International & Regional Varieties (Various Years)"
+        - "Unknown/Unsure"
+    validations:
+      required: true
+
+  - type: input
+    id: release-year
+    attributes:
+      label: Release Year
+      description: What year was this flavor first released? (If known)
+      placeholder: e.g., "2023"
+    validations:
+      required: false
+
+  - type: input
+    id: source
+    attributes:
+      label: Source/Reference
+      description: Where did you find information about this flavor? (website, store, news article, etc.)
+      placeholder: e.g., "Official Oreo website", "Walmart store", "Food news article"
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: verification
+    attributes:
+      label: Verification
+      description: Please confirm the following
+      options:
+        - label: I have verified this is a real Oreo flavor (not a custom/homemade variant)
+          required: true
+        - label: I have checked that this flavor is not already listed in the checklist
+          required: true
+        - label: I understand this flavor will be added to the appropriate year/decade section
+          required: true

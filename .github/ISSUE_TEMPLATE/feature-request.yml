@@ -1,0 +1,108 @@
+name: 🚀 Feature Request
+description: Request a new feature or suggest improvements to existing features
+title: "[FEATURE] "
+labels: ["enhancement", "feature-request"]
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping improve the Oreo Flavor Checklist! 🚀
+        
+        Please provide details about the feature you'd like to see added or improved.
+
+  - type: dropdown
+    id: feature-type
+    attributes:
+      label: Feature Type
+      description: What type of feature are you requesting?
+      options:
+        - "New feature"
+        - "Enhancement to existing feature"
+        - "User interface improvement"
+        - "Documentation improvement"
+        - "Performance improvement"
+        - "Other"
+    validations:
+      required: true
+
+  - type: input
+    id: feature-title
+    attributes:
+      label: Feature Title
+      description: Give your feature request a clear, descriptive title
+      placeholder: e.g., "Add sorting options for flavors", "Include nutritional information"
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem-description
+    attributes:
+      label: Problem Description
+      description: What problem would this feature solve? What need does it address?
+      placeholder: Describe the current limitation or missing functionality...
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposed-solution
+    attributes:
+      label: Proposed Solution
+      description: Describe the feature you'd like to see implemented
+      placeholder: Explain in detail how you envision this feature working...
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternative Solutions
+      description: Have you considered any alternative approaches?
+      placeholder: Describe any alternative solutions or workarounds you've considered...
+    validations:
+      required: false
+
+  - type: textarea
+    id: use-cases
+    attributes:
+      label: Use Cases
+      description: Provide specific examples of how this feature would be used
+      placeholder: e.g., "Users could filter flavors by decade", "Contributors could easily verify flavor authenticity"
+    validations:
+      required: false
+
+  - type: dropdown
+    id: priority
+    attributes:
+      label: Priority Level
+      description: How important is this feature to you?
+      options:
+        - "Low - Nice to have"
+        - "Medium - Would be helpful"
+        - "High - Would significantly improve the project"
+        - "Critical - Essential for project usability"
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: additional-info
+    attributes:
+      label: Additional Information
+      description: Please confirm the following
+      options:
+        - label: I have searched existing issues to ensure this feature hasn't been requested before
+          required: true
+        - label: I am willing to help with testing this feature once implemented
+          required: false
+        - label: I would be interested in contributing to the implementation of this feature
+          required: false
+
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Additional Context
+      description: Add any other context, screenshots, or examples that might be helpful
+      placeholder: Include any mockups, links, or additional details...
+    validations:
+      required: false

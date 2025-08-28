@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.3.0] - 2025-08-28
+
+### Added
+- Feature Request issue template for requesting new features or improvements to existing functionality
+
 ## [1.2.0] - 2025-08-28
 
 ### Changed

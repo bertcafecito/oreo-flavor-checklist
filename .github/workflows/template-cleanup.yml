@@ -1,0 +1,203 @@
+name: Template Cleanup
+
+# This workflow runs after someone uses the "Use this template" button
+# It removes template-specific files and prepares the repository for the new user
+on:
+  push:
+    branches: [ main, master ]
+  create:
+
+jobs:
+  template-cleanup:
+    name: Clean up template repository
+    runs-on: ubuntu-latest
+    # Only run if this is a repository created from template (not the template itself)
+    if: github.repository != 'bertcafecito/oreo-flavor-checklist' && github.run_number == 1
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
+
+      - name: Prepare new repository
+        run: |
+          # Get repository information
+          REPO_NAME="${{ github.repository }}"
+          REPO_OWNER="${{ github.repository_owner }}"
+          REPO_NAME_ONLY="${REPO_NAME#*/}"
+          
+          echo "Repository: $REPO_NAME"
+          echo "Owner: $REPO_OWNER"
+          echo "Repository name: $REPO_NAME_ONLY"
+          
+          # Create a personalized README
+          cat > README.md << 'EOL'
+          # 🍪 My Oreo Flavor Checklist
+          
+          Welcome to my personal Oreo flavor tracking adventure! This repository helps me keep track of all the Oreo flavors I've tried and want to try.
+          
+          ## 📋 My Progress
+          
+          Check out my progress in [`oreo-flavor-checklist.md`](oreo-flavor-checklist.md)!
+          
+          ## ✅ How to Use
+          
+          1. **Track your progress**: Open `oreo-flavor-checklist.md`
+          2. **Mark completed flavors**: Change `- [ ]` to `- [x]` for flavors you've tried
+          3. **Customize**: Add notes, photos, or ratings for flavors you've experienced
+          4. **Share**: Show off your Oreo expertise!
+          
+          ### Example Progress
+          ```markdown
+          ## 2020s
+          ### 2024
+          - [x] Black & White Oreo ✅ Loved it!
+          - [ ] Space Dunk Oreos
+          - [x] Oreo Dirt Cake ✅ Pretty good!
+          - [ ] Star Wars Oreo
+          ```
+          
+          ## 🎯 My Goals
+          
+          - [ ] Try 50 different Oreo flavors
+          - [ ] Find the rarest Oreo flavor
+          - [ ] Try an international Oreo flavor
+          - [ ] Complete a full decade of flavors
+          
+          ## 📸 Photos
+          
+          Add photos of interesting Oreo flavors you've tried in the `photos/` folder!
+          
+          ## 🤖 About This Template
+          
+          This checklist was created from the [Oreo Flavor Checklist Template](https://github.com/bertcafecito/oreo-flavor-checklist). 
+          
+          ---
+          
+          **Happy Oreo hunting!** 🍪✨
+          
+          *Started: $(date +"%B %Y")*
+          EOL
+          
+          # Reset the checklist (uncheck all items)
+          sed -i 's/- \[x\]/- [ ]/g' oreo-flavor-checklist.md
+          
+          # Create a simplified changelog for the new user
+          cat > CHANGELOG.md << 'EOL'
+          # My Oreo Flavor Checklist - Changelog
+          
+          This is my personal changelog for tracking updates to my Oreo flavor checklist.
+          
+          ## [Unreleased]
+          
+          ## [1.0.0] - $(date +"%Y-%m-%d")
+          
+          ### Added
+          - Initial setup of my personal Oreo flavor tracking repository
+          - Customized from the original Oreo Flavor Checklist Template
+          
+          ---
+          
+          *Template source: [bertcafecito/oreo-flavor-checklist](https://github.com/bertcafecito/oreo-flavor-checklist)*
+          EOL
+          
+          # Create a photos directory for user's flavor photos
+          mkdir -p photos
+          cat > photos/README.md << 'EOL'
+          # 📸 My Oreo Flavor Photos
+          
+          Add photos of interesting, rare, or delicious Oreo flavors you've tried here!
+          
+          ## Tips for Great Oreo Photos
+          
+          - Take photos in good lighting
+          - Include the packaging when possible
+          - Add the date and location where you found it
+          - Consider before/after shots (whole cookie vs. eaten)
+          
+          ## Organization Ideas
+          
+          You could organize photos by:
+          - Year discovered
+          - Flavor category (chocolate, fruity, seasonal, etc.)
+          - Rating (favorites, least favorites)
+          - Rarity (common, limited edition, international)
+          
+          ---
+          
+          *Happy photographing!* 📷🍪
+          EOL
+
+      - name: Remove template-specific files
+        run: |
+          # Remove this cleanup workflow so it doesn't run again
+          rm -f .github/workflows/template-cleanup.yml
+          
+          # Remove template-specific issue templates (user can recreate if needed)
+          rm -rf .github/ISSUE_TEMPLATE
+          
+          # The user might want to keep these, so we'll leave them:
+          # - LICENSE (useful for any repo)
+          # - oreo-flavor-checklist.md (the main content)
+
+      - name: Commit changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "Template Cleanup Action"
+          
+          git add .
+          git commit -m "🛠️ Initialize personal Oreo flavor checklist
+
+          - Personalized README for individual use
+          - Reset checklist to unchecked state
+          - Created photos directory for personal flavor photos
+          - Simplified changelog for personal tracking
+          - Removed template-specific files
+          
+          Template source: bertcafecito/oreo-flavor-checklist" || echo "No changes to commit"
+
+      - name: Push changes
+        run: |
+          git push origin ${{ github.ref_name }} || echo "Nothing to push"
+
+      - name: Create welcome issue
+        uses: actions/github-script@v7
+        with:
+          script: |
+            github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: "🍪 Welcome to your Oreo Flavor Checklist!",
+              body: `# Welcome to your personal Oreo flavor tracking adventure! 🎉
+
+            Your repository has been automatically set up and personalized. Here's what happened:
+
+            ## ✅ What was set up for you:
+            - **Personalized README**: Custom introduction for your flavor journey
+            - **Reset checklist**: All flavors are unchecked and ready for your progress
+            - **Photos directory**: Ready for you to add pictures of interesting flavors
+            - **Personal changelog**: Track your own updates and discoveries
+
+            ## 🚀 Next steps:
+            1. **Start tracking**: Open \`oreo-flavor-checklist.md\` and begin marking flavors you've tried
+            2. **Set goals**: Edit your README to add personal Oreo flavor goals
+            3. **Add photos**: Upload pictures of interesting flavors to the \`photos/\` folder
+            4. **Customize**: Feel free to modify the checklist, add ratings, or include personal notes
+
+            ## 💡 Pro tips:
+            - Use the checklist format: \`- [x]\` for tried, \`- [ ]\` for not tried
+            - Add emojis and personal notes after flavor names
+            - Create issues for flavors you want to find
+            - Share your progress with friends!
+
+            ## 🤖 About this setup
+            This repository was automatically customized from the [Oreo Flavor Checklist Template](https://github.com/bertcafecito/oreo-flavor-checklist). The template cleanup workflow has removed itself and other template-specific files.
+
+            ---
+
+            **Happy Oreo hunting!** 🍪✨
+
+            *You can close this issue once you've read it.*`
+            })

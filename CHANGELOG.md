@@ -7,6 +7,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.1.0] - 2025-08-28
+
+### Added
+- GitHub workflow for automatic template cleanup after "Use this template"
+- Automated repository personalization for new users
+- Welcome issue creation with setup instructions
+- Photos directory creation with usage guidelines
+- Support section in README explaining repository starring and its importance
+
 ## [1.0.0] - 2025-08-28
 
 ### Added

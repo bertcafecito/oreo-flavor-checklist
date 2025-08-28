@@ -68,6 +68,30 @@ Found a flavor that's missing? Want to improve the template? Contributions are w
 3. Submit a pull request with a description of the addition
 4. Include source/verification if possible
 
+## ⭐ Support This Project
+
+If you find this Oreo flavor checklist template helpful, please consider **starring the repository**! ⭐
+
+### Why Star This Repository?
+
+- **Show Appreciation**: Stars are GitHub's way of saying "thank you" and help show that this project is useful
+- **Increase Visibility**: More stars help other Oreo enthusiasts discover this template
+- **Encourage Development**: Stars motivate continued maintenance and improvements
+- **Track Favorites**: Starred repositories are saved to your GitHub profile for easy access later
+- **Support Open Source**: It's a simple way to support free, open-source projects
+
+### How to Star
+
+1. Click the **⭐ Star** button at the top of this repository page
+2. That's it! You've helped support the project
+
+### Other Ways to Support
+
+- **Share**: Tell friends and fellow Oreo lovers about this template
+- **Fork**: Create your own version and customize it
+- **Contribute**: Submit new flavors or improvements
+- **Use**: Actually use the template to track your Oreo adventures!
+
 ## 📊 Stats & Fun Facts
 
 - **Total Flavors**: 100+ varieties tracked

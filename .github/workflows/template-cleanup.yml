@@ -11,8 +11,11 @@ jobs:
   template-cleanup:
     name: Clean up template repository
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      issues: write
     # Only run if this is a repository created from template (not the template itself)
-    if: github.repository != 'bertcafecito/oreo-flavor-checklist' && github.run_number == 1
+    if: github.repository != 'bertcafecito/oreo-flavor-checklist-template' && github.run_number == 1
     
     steps:
       - name: Checkout repository

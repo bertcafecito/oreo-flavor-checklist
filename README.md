@@ -79,6 +79,10 @@ Found a flavor that's missing? Want to improve the template? Contributions are w
 
 This template is released under the MIT License. Feel free to use, modify, and share as you like!
 
+## 🤖 AI Assistance
+
+Generative AI was used to produce an initial draft of this checklist, which was reviewed and edited by me.
+
 ## 🎉 Have Fun!
 
 Remember, the goal is to have fun exploring the wonderful (and sometimes weird) world of Oreo flavors. Whether you're a casual snacker or a serious flavor hunter, this checklist will help you track your delicious journey!
